@@ -6,4 +6,14 @@ for i in range(1,x+1):
         print("buzz")
     elif(i%3==0):
         print("fizz")
-    else:print(i)
+    else:
+        print(i)   
+
+#patterns
+
+x=int(input())
+for i in range(x):
+    for j in range(x):
+        print("*",end=" ")
+    print()
+  
