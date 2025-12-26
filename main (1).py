@@ -4,12 +4,12 @@ value representing the sum of the cupcakes from the transcations where 5 or more
 cupcakes where sold return 0 if there is no transaction with more than 5 cupcakes sold.
 
 program:
-    def cupcakes(N,arr):
+    def cupcakes(n,arr):
         sum=0
-        for i in range(N):
-            if A[i]>=5:
-                sum+=A[i]
+        for i in range(n):
+            if arr[i]>=5:
+            sum+=arr[i]
             print(sum)
-        N=5
+        n=5
         arr=[1,2,5,8,3,7,5]
-        cupcakes(N,A)
+        cupcakes(n,arr)
