@@ -1,0 +1,25 @@
+def kk(nums):
+    k=[]
+    s=" "
+    for num in nums:
+        s+=str(num)
+    i=int(s)+1
+    z=str(i)
+    for ch in z:
+        k.append(int(ch))
+    print(k)
+nums=[8,9,9]
+kk(nums)
+    
+
+class Solution:
+    def addDigits(self, num: int) -> int:
+        while num>=10:
+            sumi=0
+            while num>0:
+                rem=num%10
+                sumi+=rem
+                num=num//10
+            num=sumi
+        return num
+        
